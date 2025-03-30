@@ -35,7 +35,7 @@ The server will be available at `http://localhost:3000/`.
 ## Features
 
 This application includes the following main features:
-- **Search**: Quickly find products by name or category.
+- **Search**: Quickly find products by name, type, category, ect.
 - **Sort**: Organize products based on different criteria (price, name, etc.).
 - **Refresh**: Reload product data to get the latest updates.
 - **Add/Update Product**: Create new products or edit existing ones.
