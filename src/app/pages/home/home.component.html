@@ -1,0 +1,15 @@
+<section class="home">
+  <app-header (toggleSidenav)="toggleSidenav()"></app-header>
+
+  <mat-sidenav-container autosize>
+    <mat-sidenav #sidenav mode="side" opened [ngClass]="{ collapsed: isCollapsed }">
+      <app-side-nav [isCollapsed]="isCollapsed"></app-side-nav>
+    </mat-sidenav>
+  
+    <mat-sidenav-content class="content">
+      <router-outlet></router-outlet>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+  
+  <app-footer></app-footer>
+</section>

@@ -1,0 +1,104 @@
+{
+  "products": [
+    {
+      "id": "157109",
+      "name": "Samsung 25 Ultra",
+      "type": "Business",
+      "category": "Smart Phone",
+      "price": 1200,
+      "image": "",
+      "isDeleted": false,
+      "lastUpdated": "2025-03-30T07:21:16.478Z"
+    },
+    {
+      "id": "157110",
+      "name": "iPhone 15 Pro Max",
+      "type": "Gaming",
+      "category": "Smart Phone",
+      "price": 1500,
+      "image": "",
+      "isDeleted": false,
+      "lastUpdated": "2025-03-30T07:22:10.123Z"
+    },
+    {
+      "id": "157111",
+      "name": "MacBook Pro M3",
+      "type": "Business",
+      "category": "Laptop",
+      "price": 2500,
+      "image": "",
+      "isDeleted": false,
+      "lastUpdated": "2025-03-30T07:23:05.987Z"
+    },
+    {
+      "id": "157112",
+      "name": "Asus ROG Strix G17",
+      "type": "Gaming",
+      "category": "Laptop",
+      "price": 2200,
+      "image": "",
+      "isDeleted": false,
+      "lastUpdated": "2025-03-30T07:24:11.345Z"
+    },
+    {
+      "id": "157113",
+      "name": "Lenovo ThinkPad X1",
+      "type": "Business",
+      "category": "Laptop",
+      "price": 1800,
+      "image": "",
+      "isDeleted": false,
+      "lastUpdated": "2025-03-30T07:25:20.567Z"
+    },
+    {
+      "id": "157114",
+      "name": "iPad Pro 12.9",
+      "type": "Casual",
+      "category": "Tablet",
+      "price": 1300,
+      "image": "",
+      "isDeleted": false,
+      "lastUpdated": "2025-03-30T07:26:30.789Z"
+    },
+    {
+      "id": "157115",
+      "name": "Samsung Galaxy Tab S9",
+      "type": "Gaming",
+      "category": "Tablet",
+      "price": 1100,
+      "image": "",
+      "isDeleted": false,
+      "lastUpdated": "2025-03-30T07:27:45.654Z"
+    },
+    {
+      "id": "157116",
+      "name": "HP Spectre x360",
+      "type": "Business",
+      "category": "Laptop",
+      "price": 1700,
+      "image": "",
+      "isDeleted": false,
+      "lastUpdated": "2025-03-30T07:28:50.432Z"
+    },
+    {
+      "id": "157117",
+      "name": "Razer Blade 15",
+      "type": "Gaming",
+      "category": "Laptop",
+      "price": 2300,
+      "image": "",
+      "isDeleted": false,
+      "lastUpdated": "2025-03-30T07:29:55.321Z"
+    },
+    {
+      "id": "157118",
+      "name": "Xiaomi Pad 6 Pro",
+      "type": "Casual",
+      "category": "Tablet",
+      "price": 800,
+      "image": "",
+      "isDeleted": false,
+      "lastUpdated": "2025-03-30T07:30:15.987Z"
+    }
+  ]
+}

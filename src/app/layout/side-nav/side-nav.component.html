@@ -1,0 +1,13 @@
+<nav>
+  <mat-nav-list>
+    <mat-list-item (click)="navigateTo('product-list')" matTooltip="Product List" matTooltipPosition="right">
+      <mat-icon>list</mat-icon>
+      <span *ngIf="!isCollapsed">Product List</span>
+    </mat-list-item>
+  
+    <mat-list-item (click)="navigateTo('sidenav-02')" matTooltip="Sidenav 02" matTooltipPosition="right">
+      <mat-icon>add_box</mat-icon>
+      <span *ngIf="!isCollapsed">Sidenav 02</span>
+    </mat-list-item>
+  </mat-nav-list>
+</nav>

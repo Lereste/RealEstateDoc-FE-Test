@@ -1,0 +1,88 @@
+.confirm-dialog {
+    padding: 24px;
+    max-width: 420px;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  
+    &__title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 16px;
+    }
+  
+    &__content {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      padding: 12px 0;
+    }
+  
+    &__message {
+      font-size: 16px;
+      color: #444;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 12px;
+      background: #fff3cd;
+      border-radius: 8px;
+      font-weight: 500;
+      border: 1px solid #ffecb5;
+    }
+  
+    &__icon {
+      font-size: 24px;
+    }
+  
+    &__actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 12px;
+      padding-top: 16px;
+    }
+  
+    &__btn {
+        text-transform: uppercase;
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        transition: all 0.3s ease-in-out;
+        min-width: 120px;
+    
+        &--cancel {
+          color: #555;
+          background-color: white;
+          border: 1px solid #ccc;
+    
+          &:hover {
+            background-color: #f5f5f5;
+            border-color: #aaa;
+          }
+        }
+    
+        &--delete {
+          background-color: #e74c3c;
+          color: white;
+          border: none;
+          box-shadow: 0 4px 8px rgba(231, 76, 60, 0.3);
+    
+          &:hover {
+            background-color: #c0392b;
+            box-shadow: 0 6px 12px rgba(231, 76, 60, 0.5);
+          }
+    
+          mat-icon {
+            font-size: 18px;
+          }
+        }
+      }
+  }
+  

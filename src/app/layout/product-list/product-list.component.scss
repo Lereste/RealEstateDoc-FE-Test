@@ -1,0 +1,108 @@
+.product-table {
+  width: 100%;
+
+  &__content {
+    width: 100%;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  /* Search Box */
+  &__search-box {
+    width: 100%;
+  }
+
+  /* Toolbar */
+  &__toolbar {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  &__spacer {
+    flex-grow: 1;
+  }
+
+  &__actions {
+    display: flex;
+    gap: 8px;
+  }
+
+  /* Table */
+  &__table {
+    width: 100%;
+  }
+
+  /* Button Styles */
+  &__btn {
+    text-transform: uppercase;
+    transition: background-color 0.3s, opacity 0.3s;
+
+    &--refresh {
+      background-color: #3498db;
+      color: white;
+
+      &:hover {
+        background-color: #2980b9;
+      }
+
+      &:disabled {
+        background-color: #b0c4de;
+        color: #ffffffa3;
+        cursor: not-allowed;
+      }
+    }
+
+    &--add {
+      background-color: #2ecc71;
+      color: white;
+
+      &:hover {
+        background-color: #27ae60;
+      }
+
+      &:disabled {
+        background-color: #a9dfbf;
+        color: #ffffffa3;
+        cursor: not-allowed;
+      }
+    }
+
+    &--update {
+      background-color: #f39c12;
+      color: white;
+
+      &:hover {
+        background-color: #e67e22;
+      }
+
+      &:disabled {
+        background-color: #f9e79f;
+        color: #ffffffa3;
+        cursor: not-allowed;
+      }
+    }
+
+    &--delete {
+      background-color: #e74c3c;
+      color: white;
+
+      &:hover {
+        background-color: #c0392b;
+      }
+
+      &:disabled {
+        background-color: #f5b7b1;
+        color: #ffffffa3;
+        cursor: not-allowed;
+      }
+    }
+
+    &--selected {
+      background-color: #1565c0 !important; /* Màu xanh đậm hơn */
+      color: white;
+    }
+  }
+}

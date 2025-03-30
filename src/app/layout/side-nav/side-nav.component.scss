@@ -1,0 +1,76 @@
+mat-sidenav {
+  width: 200px;
+  transition: width 0.3s ease-in-out; // Hiệu ứng mượt mà khi thay đổi chiều rộng
+  overflow: hidden;
+}
+
+mat-sidenav.collapsed {
+  width: 60px; // Thu nhỏ chiều rộng khi toggle
+}
+
+mat-nav-list {
+  padding: 0;
+  overflow: hidden; // Đảm bảo nội dung không bị tràn
+}
+
+.mat-list-item {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out; // Hiệu ứng mượt mà khi ẩn chữ
+  white-space: nowrap; // Tránh chữ bị xuống dòng
+  overflow: hidden;
+}
+
+.mat-list-item span {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out; // Hiệu ứng mượt mà khi chữ trượt
+}
+
+mat-sidenav.collapsed .mat-list-item span {
+  opacity: 0;
+  transform: translateX(-20px); // Trượt chữ ra ngoài khi thu nhỏ
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOut {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+}
+
+mat-icon {
+  margin-right: 10px;
+  transition: margin 0.3s ease-in-out; // Hiệu ứng mượt mà cho icon
+}
+
+mat-sidenav.collapsed mat-icon {
+  margin-right: 0; // Thu nhỏ khoảng cách icon khi toggle
+}

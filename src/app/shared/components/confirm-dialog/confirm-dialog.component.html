@@ -1,0 +1,20 @@
+<section class="confirm-dialog">
+  <h2 mat-dialog-title class="confirm-dialog__title">Confirm Action</h2>
+
+  <mat-dialog-content class="confirm-dialog__content">
+    <p class="confirm-dialog__message">
+      <mat-icon class="confirm-dialog__icon" color="warn">warning</mat-icon>
+      {{ data.message }}
+    </p>
+  </mat-dialog-content>
+
+  <mat-dialog-actions class="confirm-dialog__actions" align="end">
+    <button mat-button class="confirm-dialog__btn confirm-dialog__btn--cancel" (click)="closeDialog()">
+      Cancel
+    </button>
+
+    <button mat-button color="warn" class="confirm-dialog__btn confirm-dialog__btn--delete" (click)="onConfirm()">
+      <mat-icon>delete</mat-icon> Delete
+    </button>
+  </mat-dialog-actions>
+</section>
